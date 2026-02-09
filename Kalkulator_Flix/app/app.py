@@ -127,6 +127,16 @@ else:
     st.info("Użyto przykładowych danych TGE")
 
 # ===============================
+# FILTR ROKU – TYLKO 2025
+# ===============================
+tge_df = tge_df[tge_df["Data"].dt.year == 2025]
+
+if tge_df.empty:
+    st.error("❌ W pliku CSV nie ma danych dla roku 2025.")
+    st.stop()
+
+
+# ===============================
 # OBLICZENIA
 # ===============================
 tge_df["Godzina"] = tge_df["Data"].dt.hour
