@@ -203,7 +203,7 @@ st.header("7️⃣ Stała cena 1 MWh – I i IV kwartał")
 cena_stala = 460 + skladnik_dodatkowy
 st.dataframe(pd.DataFrame({
     "Kwartał":["I kwartał","IV kwartał"],
-    "Cena stała 1 MWh [zł]":[cena_stala,cena_stala]
+    "Cena stała 1 MWh [zł]":[cena_stala,cena_stala]}
     
 # ===============================
 # WYKRESY
