@@ -199,7 +199,7 @@ st.header("📅 Analiza miesięczna – kwiecień–wrzesień")
 st.dataframe(monthly, use_container_width=True)
 
 # 8️⃣ Stała cena – I i IV kwartał
-st.header("7️⃣ Stała cena 1 MWh – I i IV kwartał")
+st.header("Stała cena 1 MWh – I i IV kwartał")
 cena_stala = 460 + skladnik_dodatkowy
 st.dataframe(pd.DataFrame({
     "Kwartał":["I kwartał","IV kwartał"],
