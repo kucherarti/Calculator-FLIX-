@@ -1,3 +1,27 @@
+st.markdown("""
+<style>
+.main-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #3FA7A3;
+    margin-bottom: 0;
+}
+.sub-title {
+    font-size: 16px;
+    color: #4F6F6B;
+    margin-top: 4px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown(
+    "<div class='main-title'>⚡ FLIX – Kalkulator energii</div>"
+    "<div class='sub-title'>Dynamiczna cena energii oparta o TGE</div>",
+    unsafe_allow_html=True
+)
+
+st.markdown("---")
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
