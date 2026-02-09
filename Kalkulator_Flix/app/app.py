@@ -42,7 +42,7 @@ st.markdown("""
 # ===============================
 st.markdown(
     "<div class='main-title'>⚡ FLIX – Kalkulator ceny energii</div>"
-    "<div class='sub-title'>Dynamiczna cena oparta o TGE + składnik handlowy</div>",
+    "<div class='sub-title'>Dynamiczna cena oparta o TGE + składnik K</div>",
     unsafe_allow_html=True
 )
 st.markdown("---")
